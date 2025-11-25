@@ -48,7 +48,7 @@ class Program
             if (dictionary.ContainsKey(userInput))
             {
                 string meaning = dictionary[userInput];
-                Console.WriteLine($"\n📖 {userInput.ToUpper()} - {meaning}\n");
+                Console.WriteLine($"\n {userInput.ToUpper()} - {meaning}\n");
             }
             else
             {
@@ -67,3 +67,4 @@ class Program
     }
 
 }
+
