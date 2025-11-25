@@ -52,7 +52,7 @@ class Program
             }
             else
             {
-                Console.WriteLine($"\n❌ Слово '{userInput}' не найдено в словаре.\n");
+                Console.WriteLine($"\n Слово '{userInput}' не найдено в словаре.\n");
                 Console.WriteLine("Доступные слова:");
 
                 int counter = 1;
@@ -65,4 +65,5 @@ class Program
             }
         }
     }
+
 }
