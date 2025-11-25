@@ -30,7 +30,7 @@ class Program
         while (isRunning)
         {
             Console.Write("Введите слово: ");
-            string userInput = Console.ReadLine()?.ToLower().Trim();
+            string userInput = Console.ReadLine().ToLower().Trim();
 
             if (userInput == "выход")
             {
@@ -66,4 +66,5 @@ class Program
         }
     }
 }
+
 
